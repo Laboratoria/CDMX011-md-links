@@ -1,2 +1,6 @@
-const {reader} = require('./app/reader')
-console.log(reader('Dillinger.md'))
+ const {linksReader} = require('./app/linkReader');
+ const chalk = require('chalk');
+
+ console.log(linksReader('README.md'));
+ console.log(chalk.blueBright('FELIZ MIÉRCOLES'));
+ 
